@@ -21,7 +21,7 @@ ul {
 }
 
 .logo {
-color:var(--black);
+color:#2196F3;
 font-family: Raleway, cursive;
 font-weight: 700;
 font-size: 26px;
@@ -30,14 +30,14 @@ text-decoration: none;
 
 }
 
-.logo-blue {
-color:var(--accent-color) ;
-font-family: Raleway, cursive;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.2;
-text-decoration: none;
+.logo .black {
+color:var(--black) ;
+
 }
+
+.logo .white { 
+color: var(--white-text-color);
+} 
 
 .site-nav .link {
 color:var(--title-text-color);
@@ -64,7 +64,8 @@ line-height: 1.14;
 text-decoration: none;
 
 }
-.contacts .link:hover {
+.contacts .link:hover,
+.contacts .link:focus {
 color: var(--accent-color);   
 }
 
@@ -144,7 +145,8 @@ line-height: 1.73;
 
 }
 
-.button.grey:hover {
+.button.grey:hover,
+.button.grey:focus {
     color: #FFFFFF;
     background-color: #2196F3;
 }
@@ -153,27 +155,37 @@ line-height: 1.73;
     background-color: var(--dark-bg-color);
 }
 
+
 .adress {
 color: rgba(255, 255, 255, 0.6);
 font-size: 14px;
 line-height: 1.7;
+text-decoration-line: none;
+}
+
+.address .adress:hover,
+.address .adress:focus, {
+color: var(--accent-color);
 }
 
 .adress.street {
     color: #FFFFFF;
+    text-decoration-line: none;
 }
 
-.project-title {
+.projects .project-title {
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
 text-decoration-line: none;
+;
 }
 
 .type {
 color: var(--primary-text-color);
 font-size: 16px;
 line-height: 1.8;
+text-decoration-line: none;
 }
