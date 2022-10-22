@@ -1,0 +1,77 @@
+:root {
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+    --main-bg-color:#F5F5F5;
+    --secondary-bg-color:#F5F4FA;
+    --dark-bg-color:#2F303A;
+    --white-text-color:#FFFFFF;
+    --logo: #000000;
+}
+
+body {
+background-color:var(--main-bg-color);
+color: var(--primary-text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+color:var(--logo) ;
+}
+
+.logo-blue {
+color:var(--accent-color) ;
+}
+
+.site-nav .link {
+color:var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+color:var(--accent-color);
+
+}
+
+.site-nav .link.current {
+    color: var(--accent-color)
+}
+
+.contacts .link {
+color:var(--primary-text-color);
+
+}
+.contacts .link:hover {
+color: var(--accent-color);   
+}
+
+.hero-title {
+    color:var(--white-text-color);
+}
+
+/* Section */
+.section-title{
+    color:var(--title-text-color) ;
+}
+
+.advantages-list .title {
+    color:var(--title-text-color) ;
+}
+
+.workers-list .title {
+    color: var(--title-text-color);
+}
+
+.button.blue {
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+    
+}
+
+.button.grey {
+    color: var(--title-text-color);
+    background-color:var(--secondary-bg-color);
+
+}
