@@ -160,7 +160,11 @@ line-height: 1.73;
 .footer {
     background-color: var(--dark-bg-color);
 }
-
+.address :hover,
+address:focus {
+color:var(--accent-color);
+    
+}
 
 .adress {
 color: rgba(255, 255, 255, 0.6);
