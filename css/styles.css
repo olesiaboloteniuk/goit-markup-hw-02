@@ -163,7 +163,6 @@ line-height: 1.73;
 .address :hover,
 address:focus {
 color:var(--accent-color);
-    
 }
 
 .adress {
