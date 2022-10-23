@@ -161,7 +161,7 @@ line-height: 1.73;
     background-color: var(--dark-bg-color);
 }
 .address :hover,
-address:focus {
+.address:focus {
 color:var(--accent-color);
 }
 
