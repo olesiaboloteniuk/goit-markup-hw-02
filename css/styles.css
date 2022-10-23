@@ -18,7 +18,13 @@ letter-spacing: 0.03em;
 
 ul {
     list-style: none;
+    text-decoration: none;
 }
+
+.link{ 
+text-decoration: none;
+}
+
 
 .logo {
 color:#2196F3;
@@ -160,17 +166,10 @@ line-height: 1.73;
 color: rgba(255, 255, 255, 0.6);
 font-size: 14px;
 line-height: 1.7;
-text-decoration-line: none;
-}
-
-.address .adress:hover,
-.address .adress:focus, {
-color: var(--accent-color);
 }
 
 .adress.street {
     color: #FFFFFF;
-    text-decoration-line: none;
 }
 
 .projects .project-title {
@@ -179,13 +178,10 @@ font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
-text-decoration-line: none;
-;
 }
 
 .type {
 color: var(--primary-text-color);
 font-size: 16px;
 line-height: 1.8;
-text-decoration-line: none;
 }
